@@ -2,7 +2,7 @@ from typing import List
 
 from pydantic import BaseModel
 
-from .models import Article
+from blog.models import Article
 
 
 class ListArticlesQuery(BaseModel):
