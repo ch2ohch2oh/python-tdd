@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 
-from blog.commands import CreateArticleCommand
-from blog.queries import GetArticleByIDQuery, ListArticlesQuery
+from .commands import CreateArticleCommand
+from .queries import GetArticleByIDQuery, ListArticlesQuery
 
 from pydantic import ValidationError
 
